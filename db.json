@@ -1,0 +1,293 @@
+{
+    "stations": [
+        {
+            "name": "Finch",
+            "address": "5600 Yonge Street",
+            "accessible": true,
+            "washrooms": "North end of Concourse Level",
+            "platformType": "Centre",
+            "direction": [
+                {
+                    "cardinal": "Northbound",
+                    "line": 1,
+                    "doorsOpen": "both",
+                    "elevator": [4],
+                    "escalator": [1, 6],
+                    "stairs": [3, 4],
+                    "dwa": [2]
+                }, {
+                    "cardinal": "Southbound",
+                    "doorsOpen": "both",
+                    "elevator": [3],
+                    "escalator": [1, 6],
+                    "stairs": [3, 4],
+                    "dwa": [5]
+                }
+            ]
+        }, {
+            "name": "North York Centre",
+            "address": "5102 Yonge Street",
+            "accessible": true,
+            "washrooms": "",
+            "platformType": "Side",
+            "direction": [
+                {
+                    "cardinal": "Northbound",
+                    "line": 1,
+                    "doorsOpen": "right",
+                    "elevator": [3],
+                    "escalator": [3],
+                    "stairs": [4],
+                    "specificDestinationExits": [
+                        {
+                            "destination": "North end of Concourse Level",
+                            "stairs": [1]
+                        }
+                    ],
+                    "dwa": [4]
+                }, {
+                    "cardinal": "Southbound",
+                    "line": 1,
+                    "doorsOpen": "right",
+                    "elevator": [4],
+                    "escalator": [2],
+                    "stairs": [3],
+                    "specificDestinationExits": [
+                        {
+                            "destination": "North end of Concourse Level",
+                            "stairs": [6]
+                        }
+                    ],
+                    "dwa": [5]
+                }
+            ]
+        }, {
+            "name": "Sheppard-Yonge",
+            "address": "20 Sheppard Avenue West",
+            "accessible": true,
+            "washrooms": "North Concourse near the Collector booth",
+            "platformType": "Centre",
+            "direction": [
+                {
+                    "cardinal": "Northbound",
+                    "line": 1,
+                    "doorsOpen": "left",
+                    "specificDestinationExits": [
+                        {
+                            "destination": "Westbound Line 4 Sheppard Subway Platform Level",
+                            "elevator": [1],
+                            "escalator": [1],
+                            "stairs": [1]
+                        },{
+                            "destination": "Eastbound Line 4 Sheppard Subway Platform Level",
+                            "elevator": [2],
+                            "escalator": [3],
+                            "stairs": [4]
+                        },{
+                            "destination": "East and West sides of Yonge Street near Anndale Drive and Poyntz Road",
+                            "escalator": [6],
+                            "stairs": [6]
+                        }
+                    ],
+                    "dwa": [5]
+                }, {
+                    "cardinal": "Southbound",
+                    "line": 1,
+                    "doorsOpen": "left",
+                    "specificDestinationExits": [
+                        {
+                            "destination": "Westbound Line 4 Sheppard Subway Platform Level",
+                            "elevator": [6],
+                            "escalator": [6],
+                            "stairs": [6]
+                        },{
+                            "destination": "Eastbound Line 4 Sheppard Subway Platform Level",
+                            "elevator": [5],
+                            "escalator": [4],
+                            "stairs": [3]
+                        },{
+                            "destination": "East and West sides of Yonge Street near Anndale Drive and Poyntz Road",
+                            "escalator": [1],
+                            "stairs": [1]
+                        }
+                    ],
+                    "dwa": [5]
+                }
+            ]
+        }, {
+            "name": "York Mills",
+            "address": "4015 Yonge Street",
+            "accessible": true,
+            "washrooms": "",
+            "platformType": "Centre",
+            "direction": [
+                {
+                    "cardinal": "Northbound",
+                    "line": 1,
+                    "doorsOpen": "left",
+                    "elevator": "1",
+                    "specificDestinationExits": [
+                        {
+                            "destination": "Concourse Level",
+                            "escalator": [1],
+                            "stairs": [1]
+                        },{
+                            "destination": "Old York Mills Road",
+                            "escalator": [6],
+                            "stairs": [6]
+                        }
+                    ],
+                    "dwa": [5]
+                }, {
+                    "cardinal": "Southbound",
+                    "line": 1,
+                    "doorsOpen": "left",
+                    "elevator": "6",
+                    "specificDestinationExits": [
+                        {
+                            "destination": "Concourse Level",
+                            "escalator": [6],
+                            "stairs": [6]
+                        },{
+                            "destination": "Old York Mills Road",
+                            "escalator": [1],
+                            "stairs": [1]
+                        }
+                    ],
+                    "dwa": [5]
+                }
+            ]
+        }, {
+            "name": "Lawrence",
+            "address": "3101 Yonge Street",
+            "accessible": false,
+            "washrooms": "",
+            "platformType": "Centre",
+            "direction": [
+                {
+                    "cardinal": "Northbound",
+                    "line": 1,
+                    "doorsOpen": "left",
+                    "specificDestinationExits": [
+                        {
+                            "destination": "Bus Platform, Concourse, and Street Levels",
+                            "escalator": [6],
+                            "stairs": [6]
+                        },{
+                            "destination": "Bedford Park and Ranleigh Avenues",
+                            "escalator": [1],
+                            "stairs": [1]
+                        }
+                    ],
+                    "dwa": [5]
+                }, {
+                    "cardinal": "Southbound",
+                    "line": 1,
+                    "doorsOpen": "left",
+                    "specificDestinationExits": [
+                        {
+                            "destination": "Bus Platform, Concourse, and Street Levels",
+                            "escalator": [1],
+                            "stairs": [1]
+                        },{
+                            "destination": "Bedford Park and Ranleigh Avenues",
+                            "escalator": [6],
+                            "stairs": [6]
+                        }
+                    ],
+                    "dwa": [5]
+                }
+            ]
+        }, {
+            "name": "Eglinton",
+            "address": "2190 Yonge Street",
+            "accessible": true,
+            "washrooms": "Retail area at the south end of Concourse Level",
+            "platformType": "Centre",
+            "direction": [
+                {
+                    "cardinal": "Northbound",
+                    "line": 1,
+                    "doorsOpen": "left",
+                    "escalator": [5],
+                    "stairs": [2, 5, 6],
+                    "specificDestinationExits": [
+                        {
+                            "destination": "Bus Platform and Yonge Street accessible entrance",
+                            "elevator": [6],
+                            "stairs": [6]
+                        }
+                    ],
+                    "dwa": [3]
+                }, {
+                    "cardinal": "Southbound",
+                    "line": 1,
+                    "doorsOpen": "left",
+                    "escalator": [2],
+                    "stairs": [1, 2, 5],
+                    "specificDestinationExits": [
+                        {
+                            "destination": "Bus Platform and Yonge Street accessible entrance",
+                            "elevator": [1],
+                            "stairs": [1]
+                        }
+                    ],
+                    "dwa": [4]
+                }
+            ]
+        }, {
+            "name": "blank",
+            "address": "blank Street",
+            "accessible": true,
+            "washrooms": "",
+            "platformType": "blank",
+            "direction": [
+                {
+                    "cardinal": "Northbound",
+                    "line": 1,
+                    "doorsOpen": "left",
+                    "specificDestinationExits": [
+                        {
+                            "destination": "Westbound Line 4 Sheppard Subway Platform Level",
+                            "elevator": [1],
+                            "escalator": [1],
+                            "stairs": [1]
+                        },{
+                            "destination": "Eastbound Line 4 Sheppard Subway Platform Level",
+                            "elevator": [2],
+                            "escalator": [3],
+                            "stairs": [4]
+                        },{
+                            "destination": "East and West sides of Yonge Street near Anndale Drive and Poyntz Road",
+                            "escalator": [6],
+                            "stairs": [6]
+                        }
+                    ],
+                    "dwa": [5]
+                }, {
+                    "cardinal": "Southbound",
+                    "line": 1,
+                    "doorsOpen": "left",
+                    "specificDestinationExits": [
+                        {
+                            "destination": "Westbound Line 4 Sheppard Subway Platform Level",
+                            "elevator": [6],
+                            "escalator": [6],
+                            "stairs": [6]
+                        },{
+                            "destination": "Eastbound Line 4 Sheppard Subway Platform Level",
+                            "elevator": [5],
+                            "escalator": [4],
+                            "stairs": [3]
+                        },{
+                            "destination": "East and West sides of Yonge Street near Anndale Drive and Poyntz Road",
+                            "escalator": [1],
+                            "stairs": [1]
+                        }
+                    ],
+                    "dwa": [5]
+                }
+            ]
+        }
+    ]
+}
